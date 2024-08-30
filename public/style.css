@@ -43,6 +43,9 @@ main{
     background-color: khaki;
     width: 90%;
     height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 
     position: fixed;
     background-image: url("https://i.postimg.cc/G2qHZQ9M/img13-min.png");
@@ -50,6 +53,65 @@ main{
     background-size: contain;
     background-position: bottom;
    
+}
+.btn-group-vertical{
+    margin-top: 1rem;
+    gap: 10px;
+    width: 50%;
+}
+.btn_ig{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #FD0060;
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn_ig span{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.btn_fb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn_fb span{
+    color: black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.btn_wp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0CC041;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn_wp span{
+    font-size: 12px;
+    padding-left: 5px;
 }
 
 footer {
