@@ -4,31 +4,14 @@
     box-sizing: border-box;
 }
 
-.main_background{
-    background-color: rgb(48, 48, 48);
-    width: 100%;
-    height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main_container{
-    background-color: rgb(188, 9, 9);
-    width: 90%;
-    height: 90vh
-}
 
 header{
     background-color: black;
     color: aliceblue;
     width: 100%;
-    height: 15%;
 
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 header span{
@@ -41,13 +24,12 @@ header span{
 
 main{
     background-color: khaki;
-    width: 90%;
-    height: 70%;
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 
-    position: fixed;
     background-image: url("https://i.postimg.cc/G2qHZQ9M/img13-min.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -117,20 +99,15 @@ main{
 footer {
     background-color: black;
     color: aliceblue;
-    width: 100%;
-    height: 12%;
-    
-    position: relative;
+    width: 100%;    
     display: flex;
     justify-content: center;
-    top: 76%;
     text-align: center;
     padding: 5px;
 }
 
 footer span{
     width: 90%;
-    position: fixed;
     font-weight: 100;
     font-size: 9px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
