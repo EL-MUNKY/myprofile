@@ -8,7 +8,7 @@
     width: 100%;
     height: 100vh;
     background-image: url("https://i.postimg.cc/Jh0s6BvS/img4-min.png");
-    transition: 3s;
+    transition: 6s ease-in;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
@@ -42,7 +42,7 @@ main{
     align-items: flex-start;
 
     background-image: url("https://i.postimg.cc/G2qHZQ9M/img13-min.png");
-    transition: 10s;
+    transition: 10s ease-out;
     transform: translateY(5%);
     background-repeat: no-repeat;
     background-size: contain;
