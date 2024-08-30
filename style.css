@@ -42,7 +42,7 @@ main{
     align-items: flex-start;
 
     background-image: url("https://i.postimg.cc/G2qHZQ9M/img13-min.png");
-    transition: 3s;
+    transition: 10s;
     transform: translateY(5%);
     background-repeat: no-repeat;
     background-size: contain;
