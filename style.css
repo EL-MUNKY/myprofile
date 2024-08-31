@@ -16,7 +16,7 @@
 
 }
 */
-body{
+.body_background{
   background-color: darkslategray;
 }
 header {
@@ -54,7 +54,7 @@ header span {
 
 main {
   width: 60%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
